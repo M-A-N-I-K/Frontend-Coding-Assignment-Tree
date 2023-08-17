@@ -12,7 +12,6 @@ const RenderTree = ({ tree, setTree, name, data, id, children }) => {
 
     const addChild = (id, nodeData, nodeName) => {
         const targetChildId = id;
-        console.log(id);
         const newChild = {
             name: nodeName,
             data: nodeData,
